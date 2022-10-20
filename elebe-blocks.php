@@ -12,3 +12,8 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       elebe
 */
+
+define('ELEBE_PATH', plugin_dir_path(__FILE__));
+
+// Blocks
+require_once ELEBE_PATH . '/blocks/parrafo-check/index.php';
