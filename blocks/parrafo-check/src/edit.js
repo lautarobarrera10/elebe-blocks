@@ -9,6 +9,7 @@ const Edit = (props) => {
             <RichText
             tagName='p'
             placeholder='Escribe tu párrafo'
+            className='parrafo-check'
             value={text}
             onChange={(newValue) => setAttributes({text: newValue})}
             />

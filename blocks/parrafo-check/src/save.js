@@ -8,6 +8,7 @@ const Save = (props) => {
             <i className="fa-solid fa-check"></i>
             <RichText.Content
             tagName='p'
+            className='parrafo-check'
             value={text}
             />
         </div>

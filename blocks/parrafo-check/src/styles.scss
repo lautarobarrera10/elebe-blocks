@@ -1,8 +1,12 @@
 .wp-block-elebe-parrafo-check {
+    margin-block-start: 12px !important;
     display: flex;
     align-items: center;
     gap:12px;
     i {
         color: green;
+    }
+    .parrafo-check {
+        margin: 0 !important;
     }
 }
