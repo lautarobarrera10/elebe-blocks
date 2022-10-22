@@ -1,4 +1,8 @@
 .wp-block-elebe-parrafo-check {
     display: flex;
     align-items: center;
+    gap:12px;
+    i {
+        color: green;
+    }
 }

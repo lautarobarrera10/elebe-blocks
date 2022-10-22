@@ -1,19 +1,17 @@
 import { RichText } from '@wordpress/block-editor';
 
-const Edit = (props) => {
+const Save = (props) => {
     const { className, attributes, setAttributes } = props;
     const { text } = attributes;
     return(
         <div className={className}>
             <i className="fa-solid fa-check"></i>
-            <RichText
+            <RichText.Content
             tagName='p'
-            placeholder='Escribe tu párrafo'
             value={text}
-            onChange={(newValue) => setAttributes({text: newValue})}
             />
         </div>
     );
 }
 
-export default Edit;
+export default Save;
